@@ -14,7 +14,7 @@ import { ModalBase } from "../../shared/ui/ModalBase";
 import { useInputState } from "../../shared/util";
 import { useWishlistState } from "../../entities/wish";
 import { mapCurrencyRatesToLabelValue } from "../../entities/currency";
-import { Wishlist } from "../../entities/wish/ui/WishList";
+import { Wishlist } from "../../entities/wish/ui/Wishlist";
 
 export const WishList = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -16,7 +16,7 @@ import { useWishlistState } from "../../entities/wish";
 import { mapCurrencyRatesToLabelValue } from "../../entities/currency";
 import { Wishlist } from "../../entities/wish/ui/Wishlist";
 
-export const WishList = () => {
+export const WishListWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const { value, setValue, error, setError } = useInputState();

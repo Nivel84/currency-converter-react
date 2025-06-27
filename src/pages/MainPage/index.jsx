@@ -1,12 +1,12 @@
 import { Container } from "@mui/material";
 import { CurrencyConverter } from "../../widgets/CurrencyConverter";
-import { WishList } from "../../widgets/WishList";
+import { WishListWidget } from "../../widgets/WishListWidget";
 
 export const MainPage = () => {
   return (
     <Container>
       <CurrencyConverter />
-      <WishList />
+      <WishListWidget />
     </Container>
   );
 };
